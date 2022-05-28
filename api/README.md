@@ -1,3 +1,9 @@
+<div align='center'>
+
+<img src="../images/img.jpeg">
+
+</div>
+
 # Certifact API Documentation
 The Certifact API allows users to simply mint non-transferable NFT certificates with a simple single and fast API
 
