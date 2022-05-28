@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src="./images/DeCert.png">
+<img src="./images/img.jpeg">
 
 </div>
 
