@@ -1,0 +1,103 @@
+.upload {
+    padding: 0 10vw;
+}
+
+.uploadform {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid red; */
+}
+
+.uploadform > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.otherUpload input, .otherUpload textarea, #chain {
+    width: 75%;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid var(--primary);
+    color: var(--secondary);
+}
+
+.otherUpload textarea {
+    height: 18rem;
+    resize: none;
+    font-family: 'GilRoy', sans-serif;
+}
+
+#certificate {
+    display: none;
+}
+
+.upload-image {
+    cursor: pointer;
+    width: 80%;
+    /* border: 2px solid green; */
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.upload-image p {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary);
+    color: var(--off-white);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.previewImage {
+    width: 100%;
+    border: 2px solid var(--primary);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.previewImage img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.submitBtnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.submitBtn {
+    font-size: 5rem;
+    color: var(--off-white);
+    background: none;
+    border: none;
+    background-color: var(--primary);
+    padding: 1rem 20vw;
+    border-radius: 5rem;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+.displayError {
+    font-size: 2.4rem;
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.loading {
+    width: 100%;
+    font-size: 2.4rem;
+    text-align: center;
+}

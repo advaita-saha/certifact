@@ -1,0 +1,52 @@
+.heroImg, .heroDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroDesc {
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.heroDesc h1 {
+    font-size: 10vh;
+    font-weight: 600;
+    line-height: 11vh;
+    margin-bottom: 5rem;
+}
+
+.heroDesc h3 {
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.heroImg img {
+    width: 100%;
+    display: block;
+    /* border: 2px solid black; */
+}
+
+.herocta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herocta button {
+    background: none;
+    border-style: none;
+    background-color: var(--primary);
+    font-size: 4vh;
+    color: var(--off-white);
+    padding: 3vh 10vh;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.heroZigZag {
+    position: absolute;
+    bottom: 15vh;
+    right: -10vh;
+}

@@ -1,0 +1,39 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--secondary);
+    color: var(--off-white);
+}
+
+.footer > * {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: inherit;
+    padding: 3rem 0;
+    font-weight: 500;
+}
+
+.footer-brand {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.footer-links > * {
+    font-size: 1.6rem;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.footer-links > *, .footer-social > * {
+    margin: 0 4rem;
+}
+
+.footer-copyright {
+    font-size: 1.6rem;
+}

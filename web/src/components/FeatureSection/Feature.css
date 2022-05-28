@@ -1,0 +1,61 @@
+.feature {
+    margin-top: 10vh;
+}
+
+.sectionImg, .sectionDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionDesc {
+    flex-direction: column;
+    padding: 0 5vw;
+    position: relative;
+}
+
+.sectionDesc h1 {
+    font-size: 9vh;
+    font-weight: 500;
+    line-height: 10vh;
+    margin-bottom: 5rem;
+}
+
+.sectionDesc h3 {
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.sectionImg img {
+    width: 25vw;
+    display: block;
+    /* border: 2px solid black; */
+}
+
+.feat-plane {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(5vw) translateY(50%);
+}
+
+.feat-pattern {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-5vw) translateY(50%);
+}
+
+.feat-circle-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.feat-circle-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(50%) translateY(50%) rotateY(180deg);
+}
