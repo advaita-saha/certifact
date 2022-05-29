@@ -1,5 +1,11 @@
-# DeCert API Documentation
-The DeCert API allows users to simply mint non-transferable NFT certificates with a simple single and fast API
+<div align='center'>
+
+<img src="../images/img.jpeg">
+
+</div>
+
+# Certifact API Documentation
+The Certifact API allows users to simply mint non-transferable NFT certificates with a simple single and fast API
 
 #### Install the required library
 	npm install axios
@@ -20,8 +26,8 @@ Data Sets:
 Example:
 
 	 {
-	 "name": "DeCertificate",
-	 "description": "This is a test certificate for testing purposes dedicated to DeCert",
+	 "name": "Certifactificate",
+	 "description": "This is a test certificate for testing purposes dedicated to Certifact",
 	 "validFrom": 1546300800,
 	 "validTo": 1546300800,
 	 "image": imageObject,
@@ -47,11 +53,11 @@ Example:
         "type": 2,
     }
 
-    axios.post('https://api.decert.hackspiration.xyz/v1/upload',
+    axios.post('http://35.193.213.3:5050/v1/upload',
         body, 
         {
             headers: {
-            "Authorization": "Bearer <add_DeCert_API_KEY>",
+            "Authorization": "Bearer <add_Certifact_API_KEY>",
         },
         maxContentLength: Infinity,
         maxBodyLength: Infinity,
