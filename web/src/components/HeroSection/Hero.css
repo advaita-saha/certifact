@@ -1,7 +1,7 @@
 .heroImg, .heroDesc {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .heroDesc {
@@ -17,7 +17,7 @@
 }
 
 .heroDesc h3 {
-    font-size: 4vh;
+    font-size: 5vh;
     font-weight: 500;
 }
 

@@ -22,7 +22,10 @@ const Hero = ({ featureRef }) => {
           Certificates<br /> re-invented for Metaverse 
           <img src={LockSvg} alt="lock" style={{ height: "9vh", marginLeft:"2rem" }} />
         </h1>
-        <h3>We Secure your Certificates for you on Blockchain Technology and Safeguard your Identity</h3>
+        <h3>
+          <span style={{ textDecoration: "line-through", marginRight: "2rem", fontSize: "4vh" }} >Hire Web3 Dev</span>
+          Use Certifact API
+        </h3>
       </div>
     </div>
     <div className="herocta">
