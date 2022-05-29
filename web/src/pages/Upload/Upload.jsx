@@ -70,6 +70,24 @@ const Upload = () => {
         ipAddress.current.value = ''
         ipDescription.current.value = ''
       }
+      else 
+      {
+        toast("Sorry! Something went wrong", {
+          position: toast.POSITION.TOP_CENTER,
+          autoClose: 5000,
+          hideProgressBar: false,
+          type: 'error'
+        });
+        setName('')
+        setAddress('')
+        setDescription('')
+        setImage(null)
+        setDisplayImage(null)
+        setChain('')
+        ipName.current.value = ''
+        ipAddress.current.value = ''
+        ipDescription.current.value = ''
+      }
     })
     .catch(err => console.log(err.message))
     .finally(() => setIsLoading(false))
@@ -79,7 +97,7 @@ const Upload = () => {
       <ToastContainer />
       {
         isLoading ?
-        <h1 className="loading">LOADING...</h1>
+        <h1 className="loading">MINTING...</h1>
         :
         <div className="uploadform">
           <div className="otherUpload">

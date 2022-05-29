@@ -4,6 +4,7 @@ import FAQSection from '../../components/FAQSection/FAQSection'
 import './Home.css'
 
 const Home = ({ featureRef, faqRef }) => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
   return (
     <div className="home">
       <Hero featureRef={featureRef} />

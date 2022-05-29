@@ -21,7 +21,7 @@ const Navbar = ({ featureRef, faqRef }) => {
           <button onClick={() => scrollToElement(faqRef)}>FAQs</button>
           <button onClick={() => { 
             window.open('https://github.com/advaita-saha/certifact/blob/master/api/README.md', '_blank'); 
-          }}>Docs</button>
+          }}>API Docs</button>
           <Link to="/upload" className='nav-cta'>Try it out</Link>
         </ul>
     </div>
