@@ -59,7 +59,7 @@ with them for lifetime, no one can tamper with it.
 
 ## Smart Contract 📒
 - <img src="https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png" width=10> Solidity 
-- <img src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" width=10> Hardhat 
+- <img src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" width=14> Hardhat 
 
 <div align='center'>
 
