@@ -20,45 +20,47 @@ const FAQSection = ({ faqRef }) => {
       </div>
       <h1 className='faq-heading'>Frequently Asked Questions</h1>
       <div className="faq-block">
-        <p className="faq-question">Why use Certifact?</p>
+        <p className="faq-question" style={{ color: `${ isVisible1 ? 'var(--secondary)' : 'var(--primary)' }` }}>What is Certifact?</p>
         <p className="faq-question" style={{ 
             marginTop: "3rem",
             display: (isVisible1) ? `block` : `none` 
         }}>
-          Certifact enables certificate providers to secure certificates by minting them as NFTs on the blockchain
+          We are proving a simple fast API to ed-tech businesses to make their certificates into NFTs and send to the receiver. We are making the NFTs non-transferable so maintain the legitimacy of the certificates
         </p>
         <button className="faq-expand" onClick={() => setIsVisible1(!isVisible1)}>
           <img src={ isVisible1 ? Minus : Plus} alt="expand" />
         </button>
       </div>
       <div className="faq-block">
-        <p className="faq-question">How to use our API?</p>
+        <p className="faq-question" style={{ color: `${ isVisible2 ? 'var(--secondary)' : 'var(--primary)' }` }}>Why should I use it?</p>
         <p className="faq-question" style={{ 
             marginTop: "3rem",
             display: (isVisible2) ? `block` : `none` 
         }}>
-            Our NFT is listed on OpenSea, click on the link in our website to directly visit the collection in OpenSea
+            For businesses there is no hasle of crypto wallet. Get legitimate ownership of your certificate over secure blockchain, certificates stay for life-time even if our server crashes.
         </p>
         <button className="faq-expand" onClick={() => setIsVisible2(!isVisible2)}>
           <img src={ isVisible2 ? Minus : Plus} alt="expand" />
         </button>
       </div>
       <div className="faq-block">
-        <p className="faq-question">What is Certify built upon?</p>
+        <p className="faq-question" style={{ color: `${ isVisible3 ? 'var(--secondary)' : 'var(--primary)' }` }}>Where are my Certificates stored?</p>
         <p className="faq-question" style={{ 
             marginTop: "3rem",
             display: (isVisible3) ? `block` : `none` 
-        }}>What is Certify built upon?</p>
+        }}>
+          The certificates are stored over a decentralized network - FileCoin. The ownership is maintained over etherium or polygon blockchain
+        </p>
         <button className="faq-expand" onClick={() => setIsVisible3(!isVisible3)}>
           <img src={ isVisible3 ? Minus : Plus} alt="expand" />
         </button>
       </div>
       <div className="faq-block">
-        <p className="faq-question">How is the pricing decided and how much it will cost?</p>
+        <p className="faq-question" style={{ color: `${ isVisible4 ? 'var(--secondary)' : 'var(--primary)' }` }}>Can we transfer our Certificates?</p>
         <p className="faq-question" style={{ 
             marginTop: "3rem",
             display: (isVisible4) ? `block` : `none` 
-        }}>What is Certify built upon?</p>
+        }}>No, you cannot transfer your certificates, though it follows ERC-721 token standard</p>
         <button className="faq-expand" onClick={() => setIsVisible4(!isVisible4)}>
           <img src={ isVisible4 ? Minus : Plus} alt="expand" />
         </button>

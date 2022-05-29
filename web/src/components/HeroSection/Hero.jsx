@@ -1,5 +1,6 @@
 import HeroImg from "./../../assets/hero-Illustration.svg"
 import HeroZigZag from "./../../assets/hero-zigzag.svg"
+import LockSvg from "./../../assets/lock_icon.svg"
 import "./Hero.css"
 import "./../../pages/Home/Home.css"
 
@@ -17,7 +18,10 @@ const Hero = ({ featureRef }) => {
         <img src={HeroImg} alt="HeroImage" />
       </div>
       <div className="heroDesc">
-        <h1>Get Certificates Secured 🔒</h1>
+        <h1>
+          Certificates<br /> re-invented for Metaverse 
+          <img src={LockSvg} alt="lock" style={{ height: "9vh", marginLeft:"2rem" }} />
+        </h1>
         <h3>We Secure your Certificates for you on Blockchain Technology and Safeguard your Identity</h3>
       </div>
     </div>

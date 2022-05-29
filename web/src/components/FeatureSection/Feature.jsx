@@ -25,7 +25,7 @@ const Feature = ({ featureRef }) => {
         <div className="feat-circle-1">
           <img src={Circle} alt="circle" />
         </div>
-          <h1 style={{ position: "relative" }}>
+          <h1 style={{ position: "relative", fontWeight: "600" }}>
             <div style={{ position: "absolute", top: "10", left: "0", transform: "translateX(-150%)" }}>
               <img src={One} alt="one" />
             </div>
@@ -45,7 +45,7 @@ const Feature = ({ featureRef }) => {
           <div className="feat-circle-2">
             <img src={Circle} alt="circle" />
           </div>
-          <h1 style={{ position: "relative" }}>
+          <h1 style={{ position: "relative", fontWeight: "600" }}>
             <div style={{ position: "absolute", top: "10", left: "0", transform: "translateX(-150%)" }}>
               <img src={Two} alt="two" />
             </div>
@@ -56,7 +56,7 @@ const Feature = ({ featureRef }) => {
       </div>
       <div className="home-grid feature">
         <div className="sectionDesc">
-          <h1 style={{ position: "relative" }}>
+          <h1 style={{ position: "relative", fontWeight: "600" }}>
             <div style={{ position: "absolute", top: "10", left: "0", transform: "translateX(-150%)" }}>
               <img src={Three} alt="three" />
             </div>

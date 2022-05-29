@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
+import BrandImg from "./../../assets/brand_img.svg"
 import "./Navbar.css"
 
 const Navbar = ({ featureRef, faqRef }) => {
@@ -9,16 +10,18 @@ const Navbar = ({ featureRef, faqRef }) => {
   }
   return (
     <div className="navbar">
-        <div className="navbrand">
-          <Link to="/" style={{ textDecoration: "none", color: "black", fontSize: "3rem", fontWeight: "bold" }}>Certifact</Link>
+        <div className="navbrand" style={{ padding: "5rem 0" }}>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+            <img src={BrandImg} alt="Certifact" style={{ height: "10rem", display: "block" }} />
+          </Link>
         </div>
         <ul className='navmenu'>
           {/* <button>About</button> */}
           <button onClick={() => scrollToElement(featureRef)} >Features</button>
           <button onClick={() => scrollToElement(faqRef)}>FAQs</button>
-          <a href="https://github.com/advaita-saha/certifact/blob/master/api/README.md" target="_blank" rel="noreferrer" className="nav-doclink">
-            Docs
-          </a>
+          <button onClick={() => { 
+            window.open('https://github.com/advaita-saha/certifact/blob/master/api/README.md', '_blank'); 
+          }}>Docs</button>
           <Link to="/upload" className='nav-cta'>Try it out</Link>
         </ul>
     </div>

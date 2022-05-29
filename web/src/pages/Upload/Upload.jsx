@@ -40,7 +40,10 @@ const Upload = () => {
     setErr('');
     setIsLoading(true);
     console.log(body);
-    axios.post('http://35.193.213.3:5050/v1/upload', body,
+    // const agent = new axios.agent({
+
+    // })
+    axios.post('https://cors-everywhere.herokuapp.com/http://35.193.213.3:5050/v1/upload', body,
     {
         headers: {
             "Authorization": "Bearer 6250c21473e19a58eee972c8"
