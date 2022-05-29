@@ -14,7 +14,6 @@
 ![Polygon](https://img.shields.io/badge/Polygon-20232A?style=for-the-badge&logo=PolymerProject&logoColor=8545EC)
 ![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=Node.js&logoColor=339933)
 ![Express.js](https://img.shields.io/badge/Express.js-20232A?style=for-the-badge&logo=Express&logoColor=339933)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
@@ -56,8 +55,10 @@ with them for lifetime, no one can tamper with it.
 
 ## Frontend 🖥️
 - <img src="https://pluspng.com/img-png/react-logo-png-img-react-logo-png-react-js-logo-png-transparent-png-1142x1027.png" width=14> React.js 
+- <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" width=14> Figma 
 
 ## Smart Contract 📒
 - <img src="https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png" width=10> Solidity 
 
 <div align='center'>
+
