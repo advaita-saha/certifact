@@ -14,6 +14,7 @@
 ![Polygon](https://img.shields.io/badge/Polygon-20232A?style=for-the-badge&logo=PolymerProject&logoColor=8545EC)
 ![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=Node.js&logoColor=339933)
 ![Express.js](https://img.shields.io/badge/Express.js-20232A?style=for-the-badge&logo=Express&logoColor=339933)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
