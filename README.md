@@ -55,10 +55,11 @@ with them for lifetime, no one can tamper with it.
 
 ## Frontend 🖥️
 - <img src="https://pluspng.com/img-png/react-logo-png-img-react-logo-png-react-js-logo-png-transparent-png-1142x1027.png" width=14> React.js 
-- <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" width=14> Figma 
+- <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" width=12> Figma 
 
 ## Smart Contract 📒
 - <img src="https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png" width=10> Solidity 
+- <img src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" width=10> Hardhat 
 
 <div align='center'>
 
