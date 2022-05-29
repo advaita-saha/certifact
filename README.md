@@ -44,29 +44,6 @@ with them for lifetime, no one can tamper with it.
 
 </br>
 
-# Architecture 🔩
-
-<div align='center'>
-
-<img src="./images/mid.png" alt="Architecture Image">
-
-</div>
-
-#### Setp 1 
-The business user/ ed-tech
-platform use our API to upload a
-certificate
-
-#### Step 2
-After the certificate is received, it
-is directly uploaded to Filecoin
-network
-
-#### Step 3
-After the upload is completed, a
-non-transferable NFT is minted to
-the users wallet address
-
 # Tech Stack 🧰
 ## Blockchain network ⛓️
 - <img src="https://ethereum.org/static/4f10d2777b2d14759feb01c65b2765f7/b7d3e/eth-glyph-colored.png" width=10> Ethereum
