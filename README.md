@@ -20,7 +20,12 @@
 ----
 
 </br>
-#### API : http://35.193.213.3:5050/
+
+#### API Link : http://35.193.213.3:5050/
+#### API Key Sample : 6250c21473e19a58eee972c8
+</br>
+
+
 # Problem Statement 🤔
 
 More and more Ed-Tech companies are trying to move into the Web3 and Metaverse space, the major issue faced by them is, dealing with a lot of new technology, and also managing the crypto funds and multiple accounts and contracts.
