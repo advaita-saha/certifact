@@ -5,7 +5,7 @@ This provides complete ownership of the certificate to the receiver and the data
 Users will also get a single platform to showcase their certificates. And due to some reason we shut down operations, the certificates of the users will still remain with them for lifetime, no one can tamper with it.
 
 Contract Address : -
-* Rinkeby   : 0x13191adB150B85D665B05E450269BaEfE4B5c9f3
+* Sepolia   : 0x13191adB150B85D665B05E450269BaEfE4B5c9f3
 * Mumbai    : 0x73E061ac035CFDf74AF2a863b00AFe33b364954b
 
 Run the following commands to test and deploy
